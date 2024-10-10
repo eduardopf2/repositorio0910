@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Programação  C++</title>
+</head>
+<body>
+    
+
+    
+    <a href="./index.html">Principal</a>
+    <a href="./Tinkercad.html">Sobre Tinkercad</a>
+    <a href="./C++.html">C++</a>
+    <a href="Java.html">Java</a>
+    
+    <h1>linguagem de Programação C++</h1>
+
+    <p>O C++ está presente em sistemas operacionais, jogos e até softwares de gerenciamento de energia. Conheça tudo sobre essa linguagem de programação. </p>
+
+    <p>O C++ é uma linguagem de programação que desempenha um papel no desenvolvimento de software, destacando-se por sua eficiência. A linguagem está entre as dez mais usados do mundo, sendo adotado por 22% das pessoas desenvolvedoras, de acordo com dados do Statista. </p> 
+
+    <p>O núcleo do sistema operacional, conhecido como kernel, é em grande parte escrito em C++. Isso permitiu o desenvolvimento de código de alto desempenho, fundamental para a responsividade e eficiência, com um controle preciso sobre os recursos, incluindo gerenciamento de memória e manipulação direta de hardware. </p>
+
+    <p>Além disso, o C++ é utilizado em vários setores, como desenvolvimento de sistemas operacionais, jogos e software de alto desempenho, hardware, redes, sistemas de e-mail,sites de varejo, projetos de comunicação, aviação e até gerenciamento de energia. </p>
+
+    <p>A seguir em baixo, ilustraremosuma imagem de códigos na IDE do Arduíno</p>
+    <img src="idearduino.jpeg" alt="Foto ilustrativa da IDE do Arduino">
+    <a href="https://www.arduino.cc/">Arduíno</a>
+    
+    <p>Abaixo disponível um texto ilustrado do código.</p>
+    <p>// C++ code
+        //
+        int num = 0;
+        
+        void setup()
+        {
+          pinMode(A0, INPUT);
+          Serial.begin(9600);
+          pinMode(12, OUTPUT);
+          num = 0;
+        }
+        
+        void loop()
+        {
+          num += 0;
+          num += analogRead(A0);
+          Serial.println(num);
+          if (num > 500) {
+            digitalWrite(12, HIGH);
+          } else {
+            digitalWrite(12, LOW);
+          }
+          delay(500); // Wait for 500 millisecond(s)
+        }</p>
+
+</body>
+</html>
